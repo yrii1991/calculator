@@ -1,0 +1,57 @@
+.container {
+    width: 800px;
+    margin: auto;
+    background: antiquewhite;
+}
+
+.calc_display {
+    height: 50px;
+    border: 1px solid red;
+    background: white;
+    display: flex;
+    width: 100%;
+    flex-direction: row-reverse;
+    font-size: 30px;
+    align-items: center;
+}
+
+.calc_keyboard {
+    display: flex;
+}
+
+.calc_keyboard_number {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.number {
+    width: 30%;
+    flex-grow: 1;
+    text-align: center;
+    background: cornflowerblue;
+    height: 60px;
+    border: 1px solid red;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calc_keyboard_operands {
+    width: 16%;
+}
+
+.operands {
+    height: 60px;
+    flex-grow: 1;
+    text-align: center;
+    background: cornflowerblue;
+    border: 1px solid red;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
